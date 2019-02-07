@@ -5,7 +5,8 @@ Library to check app update via firebase remote config
 1) Connect your app to firebase
 2) Open Remote config in firebase and add keys to be used for checking update
 
-#Use in Project
+# Use in Project
+
 Add following line in you main gradle inside repository block
   maven {
     url  "https://dl.bintray.com/ankitahuja0508/CheckAppUpdate"

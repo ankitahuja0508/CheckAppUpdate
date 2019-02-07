@@ -1,0 +1,32 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.libVersionCode
+        versionName rootProject.ext.libVersionName
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+ext{
+    PUBLISH_GROUP_ID = 'aexyn.com.checkappupdate'
+    PUBLISH_ARTIFACT_ID = 'checkappupdate'
+    PUBLISH_VERSION = '1.0.0'
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-config:16.1.3'
+}
+
+apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'

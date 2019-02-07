@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CheckAppUpdate</string>
+
+    <string name="title">App Update!</string>
+    <string name="message">New version of app is available. Please update it.</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

@@ -5,7 +5,7 @@ Library to check app update via firebase remote config
 1) Connect your app to firebase
 2) Open Remote config in firebase and add keys to be used for checking update
 
-![alt text](Screenshot%202019-02-11%20at%208.25.45%20PM.png, "Keys to be entered in remote cofig to use this library")
+![alt text](https://github.com/ankitahuja0508/CheckAppUpdate/blob/master/Screenshot%202019-02-11%20at%208.25.45%20PM.png)
 
 # Use in Project
 
